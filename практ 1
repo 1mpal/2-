@@ -10,3 +10,7 @@ class student:
     def print_info(self):
         print(f"FIO;(self. FIO),group: (self.group), Assigment year:(self.assigmentyear). Is studying: (self_studying)" )
   
+stl = Student("Petruhin Egor Efrimovich" ,"ABC123", "2024", True)
+    stl.print_info() 
+
+
