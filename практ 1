@@ -1,0 +1,12 @@
+class student:
+    def __init__(self,FIO,group,assigmentyear,studyng):
+        self.FIO = FIO
+        self.group = group
+        self.assigmentyear = assigmentyear
+        self.studying = studying
+    def change_studying(self, kicked_out):
+        self.studying = kicked_out
+
+    def print_info(self):
+        print(f"FIO;(self. FIO),group: (self.group), Assigment year:(self.assigmentyear). Is studying: (self_studying)" )
+  
