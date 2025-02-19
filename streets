@@ -1,0 +1,6 @@
+class Street:
+   def __init__(self, name, address, num_houses, dicription):
+       self.name = name
+       self.address = address
+       self.num_houses = num_houses
+       self.dicription = dicription
